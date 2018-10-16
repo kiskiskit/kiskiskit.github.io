@@ -27,4 +27,4 @@ function Clock() {
     document.body.style.background = colorSrting;
 }
 
-Clock();
+setInterval(Clock, 1000);
