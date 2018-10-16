@@ -4,7 +4,7 @@ var color = document.getElementById('color');
 
 function Clock() {
     var time = new Date();
-    var h = (time.getHours() % 12).toString();
+    var h = (time.getHours().toString();
     var m = time.getMinutes().toString();
     var s = time.getSeconds().toString();
 
